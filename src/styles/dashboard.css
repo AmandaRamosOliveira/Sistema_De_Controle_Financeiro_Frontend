@@ -14,16 +14,17 @@
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, rgb(174, 236, 189), rgb(68, 199, 158));
-    width: 100%;
-    max-width: 100vw;
+    width: 100%;             
+    max-width: 100vw;         
     min-height: 100vh;
-    padding-bottom: 120px; 
+    padding-bottom: 120px;
 }
+
 .card-container {
   display: flex;
   gap: 20px;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap;   
 }
 .meioDash{
     display: flex;
