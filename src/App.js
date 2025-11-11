@@ -4,7 +4,6 @@ import {BrowserRouter as Router, Routes, Route, Navigate } from "react-router-do
 import Loading from "./pages/Loading"; 
 import Home from "./pages/Home";
 import Estudos from "./pages/Estudos";
-import Footer from "./components/Footer";
 import Contas from "./pages/Contas";
 import Metas from "./pages/Metas";
 import Dashboard from "./pages/Dashboard";
@@ -36,7 +35,6 @@ function App(){
         <Route path="/metas" element={<Metas/>}/>
         <Route path="*" element={<Navigate to="/"/>}/>
       </Routes>
-      <footer/>
     </Router>
  );
     
