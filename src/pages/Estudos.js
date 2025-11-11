@@ -38,7 +38,7 @@ const Estudos = () => {
           <p> © 2025 Financial Management.</p>
           <div>
             <FaInstagramSquare size={20} color="green" />
-            <a href="#" className="text-whit me-3">
+            <a href="https://www.instagram.com/amanda_ramos_oliveira/?next=%2F" className="text-whit me-3">
               Instagram
             </a>
             <AiFillLinkedin size={20} color="green" />
