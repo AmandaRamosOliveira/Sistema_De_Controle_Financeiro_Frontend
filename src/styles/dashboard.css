@@ -11,13 +11,10 @@
     color: rgb(60, 129, 69);
 }
 .dashboard {
+    background: linear-gradient(to right, rgb(174, 236, 189), rgb(68, 199, 158));
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right, rgb(174, 236, 189), rgb(68, 199, 158));
-    width: 100%;             
     min-height: 100vh;
-    padding-bottom: 120px;
-    overflow-x: hidden;
     overflow-y: auto;
 }
 
